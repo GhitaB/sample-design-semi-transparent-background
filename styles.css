@@ -7,19 +7,22 @@ div.background {
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: auto;
-  margin: 5%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   min-height: 900px;
+  overflow: hidden;
+  position: relative;
+  height: auto;
 }
 
 div.layer {
   background-color: rgba(0, 150, 255, 0.8);
-  position: relative;
-  padding: 50px;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 100%;
   color: #FFFFFF;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  overflow: auto;
 }
 
 div.layer h1 {
