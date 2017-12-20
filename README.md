@@ -1,0 +1,2 @@
+# sample-design-semi-transparent-background
+CSS, HTML - apply a color as a layer on a background image
