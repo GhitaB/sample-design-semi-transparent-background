@@ -19,15 +19,14 @@ div.background {
 div.layer {
   background-color: rgba(0, 150, 255, 0.8);
   color: #FFFFFF;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  overflow: auto;
+  padding: 50px;
+  min-height: 100%;
 }
 
 div.layer h1 {
   text-align: center;
   font-size: 100px;
+  margin: 0;
 }
 
 div.layer p {
